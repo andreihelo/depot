@@ -13,3 +13,16 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore other unneeded files.
+/doc
+*.swp
+*~
+.DS_Store
+/project
+/.idea
+/.sass-cache
+/diagrams
+
+# Ignore paperclip files
+/public/system
